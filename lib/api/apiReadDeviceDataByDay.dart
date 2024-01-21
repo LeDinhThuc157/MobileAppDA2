@@ -29,7 +29,6 @@ Future<ReadDeviceDataByDay> apiReadDeviceDataByDay(String year, String month, St
     );
     // print(response.toString() + "\n ${response.statusCode}");
     Map<String, dynamic> userMap = jsonDecode(response.toString());
-    print("MapDay: $userMap");
     return ReadDeviceDataByDay('',userMap);
   }catch(e){
     String error = e.toString();

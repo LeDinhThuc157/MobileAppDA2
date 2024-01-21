@@ -1,10 +1,12 @@
 import 'package:appda2/ui/home.dart';
 import 'package:appda2/ui/homePage.dart';
+import 'package:appda2/ui/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 String hostName = "https://draft.aithings.vn:6889";
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Home(),
+      home: SplashScreen(),
     );
   }
 }

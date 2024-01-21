@@ -133,7 +133,7 @@ class _HomeState extends State<Home> {
                 height: 10,
               ),
               Container(
-                height: 430,
+                height: 330,
                 decoration: BoxDecoration(
                   color: Color(0xFFFFFFFF),
                   borderRadius: BorderRadius.all(Radius.circular(8.0)),),

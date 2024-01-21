@@ -52,7 +52,6 @@ class _HomePageState extends State<HomePage> {
                 icon: Icons.location_on,
                 text: 'Map',
                 textSize: 25,
-
               ),
             ]
         ),
@@ -64,7 +63,7 @@ class _HomePageState extends State<HomePage> {
       index: chooseIndex,
       children: <Widget>[
         Home(),
-        // Graph(),
+        Graph(),
       ],
     );
   }
